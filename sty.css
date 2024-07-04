@@ -1,0 +1,112 @@
+
+header{
+	width: 100%;
+	height: 100vh;
+	background: rgba(128, 128, 128, 0.073);
+	clip-path: hexagon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);
+	background-image: url(https://th.bing.com/th/id/R.d1ac14f956910110e16dcf4e6837dd96?rik=gMF83HMk71if1A&riu=http%3a%2f%2fwww.comarcastle.com%2fsites%2fdefault%2ffiles%2ffitnesswellness_istock_000017220214medium_0.jpg&ehk=EI1ckjQQfcskyUkpdQ4qa%2fF7XPGKJoavAoGi%2fvogtiw%3d&risl=&pid=ImgRaw&r=0);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+.container h2{
+	text-align: center;
+	color: crimson;
+	font-size: 50px;
+}
+.left h1{
+	color: crimson;
+	padding-left: 500px;
+}
+.left img{
+	padding-right: 600px;
+	padding-top: 100px;
+}
+.right img{
+	padding-right: 600px;
+	padding-top: 100px;
+}
+nav{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: white;
+}
+.logo{
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 5px;
+
+}
+#blue
+{
+	color:crimson;
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	margin: 10px;
+}
+.menu a:first-child{
+	border-bottom: 2px solid  crimson;
+} 
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+*{
+ margin:0;
+ padding: 0;
+ outline: 0;
+}
+.filter{
+ position: absolute;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ z-index: 1;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e94ca1",endColorstr="#c74ae9",GradientType=1);
+opacity: .7;
+}
+table{
+float: right;
+ position: right;
+ z-index: 2;
+ left: 30%;
+ top: 20%;
+ transform: translate(-50%,-50%);
+ width: 40%; 
+ border-collapse: collapse;
+ border-spacing: 0;
+ box-shadow: 0 2px 15px rgba(64,64,64,.7);
+ border-radius: 12px 12px 0 0;
+
+}
+td, th{
+ padding: 20px 10px;
+ text-align: center;
+ 
+
+}
+th{
+	padding-top: 20px;
+	padding: 20px 10px;
+ background-color: #ba68c8;
+ color: #fafafa;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: 100;
+ text-transform: uppercase;
+
+}
+tr{
+		padding-top: 100%;
+ width: 50%;
+ background-color: #fafafa;
+ font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+ background-color: #eeeeee;
+}
